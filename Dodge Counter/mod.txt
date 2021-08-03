@@ -1,0 +1,31 @@
+{
+    "name" : "Dodge Counter",
+    "description" : "Counts your dodges and calculates a dodge chance at the end of the heist",
+    "author" : "Sg",
+    "contact" : "",
+    "version" : "0.4",
+	"blt_version" : 2,
+    "hooks" : [
+		{
+			"hook_id" : "lib/states/missionendstate",
+			"script_path" : "main.lua"
+		},
+		{
+			"hook_id" : "lib/managers/playermanager",
+			"script_path" : "main.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/playerdamage",
+			"script_path" : "main.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/playerdamage",
+			"script_path" : "main.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/playerdamage",
+			"script_path" : "main.lua"
+		}
+		
+    ]
+}
